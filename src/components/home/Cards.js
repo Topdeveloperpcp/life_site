@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
-import fonts from '../styles/fontstyle.module.css';
-import styles from '../styles/ipadcontent.module.css';
+import '../styles/fonts.scss';
+import '../styles/home/ipadcontent.scss';
 import CardItem from './CardItem';
 import cardImg1 from '../../assets/images/home/10.jpg';
 import cardImg2 from '../../assets/images/home/11.jpg';
@@ -12,18 +12,18 @@ const Cards = () => {
         <>
             <Row className="d-flex justify-content-center">
                 <Col md="8" className="d-flex flex-column justify-content-center">
-                    <div className={`${fonts.ralewaybold_30} pb-3`}>
+                    <div className="ralewaybold_30 pb-3">
                         <p className="text-center">
                             EVEN MORE FEATURE RICH
                         </p>
                     </div>
-                    <div className={fonts.raleway_22}>
+                    <div className="raleway_22">
                         <p className="text-center">
                             Philanthropy convener livelihoods, initiative end gender rights local.
                             John Lennon storytelling; advocate, altruism impact catalyst.
                         </p>                        
                     </div>
-                    <div className={`${styles.center_divider} pb-5`} />
+                    <div className="center_divider pb-5" />
                 </Col>
             </Row>
             <Row>

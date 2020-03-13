@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import fonts from './styles/fontstyle.module.css';
+import './styles/fonts.scss';
 
 const BtnDiv = styled.div`
     width: ${props=>props.width};
@@ -22,7 +22,7 @@ const BtnDiv = styled.div`
 const GrayButton = (props) => {
     return(
         <BtnDiv width={props.width} height={props.height}>
-            <div className={fonts.lato_white}>
+            <div className="lato_white">
                 {props.txt}
             </div>
         </BtnDiv>

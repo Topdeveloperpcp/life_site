@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import ipad from '../../assets/images/home/ipad-section.png';
 
 export const BackgroundDiv = styled.div`
     height: 700px;

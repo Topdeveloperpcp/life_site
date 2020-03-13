@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import styles from './styles/header.module.css';
-import fonts from './styles/fontstyle.module.css';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import './styles/header.scss';
+import './styles/fonts.scss';
 import logo from '../assets/images/logo.png';
-import phone from '../assets/images/phone.png';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 
@@ -24,31 +22,31 @@ const Header = () => {
         }
     }, 300);
     return(
-        <div className={scrollY?styles.header_container:styles.header_container_scroll}>           
-            <div className={styles.logo_container}>
-                <img src={logo} className={styles.logo}/>
+        <div className={scrollY?"header_container":"header_container_scroll"}>           
+            <div className="logo_container">
+                <img src={logo} className="logo" alt="banner"/>
             </div>
-            <div className={styles.nav_container}>
-                <div className={`${fonts.color} ${fonts.ralewaybold_13} ${styles.menu}`}>
+            <div className="nav_container">
+                <div className="color ralewaybold_13 menu">
                     UVOD
                 </div>
-                <div className={`${fonts.ralewaybold_13} ${styles.menu}`}>
+                <div className="ralewaybold_13 menu">
                     O NAS
                 </div>
-                <div className={`${fonts.ralewaybold_13} ${styles.menu}`}>
+                <div className="ralewaybold_13 menu">
                     PRODUKTY
                 </div>
-                <div className={`${fonts.ralewaybold_13} ${styles.menu}`}>
+                <div className="ralewaybold_13 menu">
                     OTAZKY A ODPOVEDI
                 </div>
-                <div className={`${fonts.ralewaybold_13} ${styles.menu}`}>
+                <div className="ralewaybold_13 menu">
                     BLOG
                 </div>
-                <div className={`${fonts.ralewaybold_13} ${styles.menu}`}>
+                <div className="ralewaybold_13 menu">
                     KONTAKT
                 </div>
             </div>
-            <div className={styles.right_container}>
+            <div className="right_container">
                 <FacebookIcon />
                 <InstagramIcon />          
             </div>

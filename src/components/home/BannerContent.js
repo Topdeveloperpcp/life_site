@@ -1,6 +1,5 @@
 import React from 'react';
-import fonts from '../styles/fontstyle.module.css';
-import styles from '../styles/banner.module.css';
+import '../styles/home/banner.scss';
 import AppleIcon from '@material-ui/icons/Apple';
 
 const BannerContent = () => {
@@ -10,16 +9,16 @@ const BannerContent = () => {
     }
     return(
         <div>
-            <div className={`${fonts.ralewaybold_52} ${styles.content}`}>
+            <div className={`ralewaybold_52 content`}>
                 The new way to create awesome websites. Try using Canvas Template.
             </div>
-            <div className={styles.bannerBtn} onMouseEnter={changeColor} onMouseLeave={changeColor}>
-                <AppleIcon style={!appleColor?{ fontSize: 50, color: 'white' }:{ fontSize: 50, color: '#333' }} className={styles.apple}/>
+            <div className="bannerBtn" onMouseEnter={changeColor} onMouseLeave={changeColor}>
+                <AppleIcon style={!appleColor?{ fontSize: 50, color: 'white' }:{ fontSize: 50, color: '#333' }} className="apple"/>
                 <div>
-                    <div className={fonts.ralewaybold_22}>
+                    <div className="ralewaybold_22">
                         START YOUR FREE TRIAL
                     </div>
-                    <div className={fonts.creteround_14}>
+                    <div className="creteround_14">
                         30-Days &amp; No Credit card Required
                     </div>
                 </div>                

@@ -1,16 +1,16 @@
 import React from 'react';
-import styles from '../styles/figure.module.css';
-import fonts from '../styles/fontstyle.module.css';
+import '../styles/home/figure.scss';
+import '../styles/fonts.scss';
 
 
 const Figure = (props) => {
     return(
-        <div className={styles.figure_container}>
-            <img src={props.img} />
-            <div className={`${fonts.raleway_18} pb-4`}>
+        <div className="figure_container">
+            <img src={props.img} alt="sign"/>
+            <div className="raleway_18 pb-4">
                 <p>{props.title}</p>
             </div>
-            <div className={fonts.lato}>
+            <div className="lato">
                 <p className="text-center">{props.txt}</p>
             </div>
         </div>

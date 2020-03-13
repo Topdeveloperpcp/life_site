@@ -1,0 +1,19 @@
+@mixin flexcolumn() {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin alignCenter {
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin alignAround {
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin alignBetween {
+    align-items: center;
+    justify-content: space-between;
+}

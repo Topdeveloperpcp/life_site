@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from '../styles/banner.module.css';
+import '../styles/home/banner.scss';
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 import bannerBackground from '../../assets/images/home/4.jpg';
 import slider_iphone from '../../assets/images/home/slider-iphone.png';
 import BannerContent from './BannerContent';
 const HomeBanner = () => {
     return(
-        <div className={styles.banner_container}>
+        <div className="banner_container">
             <ParallaxProvider>
                 <ParallaxBanner
-                    className={styles.parallax_banner}
+                    className="parallax_banner"
                     layers={[
                         {
                             image: bannerBackground,

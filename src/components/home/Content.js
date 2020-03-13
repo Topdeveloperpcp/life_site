@@ -4,9 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 import s1 from '../../assets/images/home/s1.png';
 import s4 from '../../assets/images/home/s4.png';
 import s5 from '../../assets/images/home/s5.png';
-import {BackgroundDiv, BackgroundFreeDiv} from '../styles/background';
+import {BackgroundDiv, BackgroundFreeDiv} from '../styles/home/background';
 import ipad from '../../assets/images/home/ipad-section.png';
-import styles from '../styles/content.module.css';
+import '../styles/content.scss';
 import IpadContent from './IpadContent';
 import DarkList from './DarkList';
 import TypicallyResponsive from './TypicallyResponsive';
@@ -30,7 +30,7 @@ const Content = () => {
                 </Row>            
             </Container>
             <BackgroundDiv>
-                <img src={ipad} className={styles.background}/>
+                <img src={ipad} className="background" alt="ipad"/>
                 <Container className="themed-container pt-5">
                     <Col xs="12" md="7" className="pt-5 pb-5">
                         <IpadContent 

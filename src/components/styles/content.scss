@@ -1,0 +1,52 @@
+@import "variables.scss";
+
+.background {
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+}
+
+.darklist_container {
+    background-color: #282828;
+}
+
+.dark_item_container {
+    display: flex;
+}
+
+.blue_icon {
+    width: 50px;
+    color:  #1ABC9C;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.card_img {
+    height: 100%;
+}
+
+.card_item {
+    width: 100%;
+    height: fit-content;
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-box-shadow: $CardItemShadow;
+    -moz-box-shadow: $CardItemShadow;
+    box-shadow: $CardItemShadow;
+}
+
+.card_item:hover {
+    -webkit-box-shadow: $CardItemHoverShadow;
+    -moz-box-shadow: $CardItemHoverShadow;
+    box-shadow: $CardItemHoverShadow;
+}
+
+.overlay_carousel:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: $CarouselOverlayColor;
+    z-index: 1000;
+}
+
