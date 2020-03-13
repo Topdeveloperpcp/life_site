@@ -1,0 +1,10 @@
+
+@keyframes header_animationUp {
+    0%   { height: 100px;}    
+    100% { height: 60px;}
+}
+
+@keyframes header_animationDown {
+    0%   { height: 60px;}    
+    100% { height: 100px;}
+}

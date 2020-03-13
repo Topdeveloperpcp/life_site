@@ -6,7 +6,7 @@ import { FaCheck } from 'react-icons/fa';
 import { FaThumbsUp } from 'react-icons/fa';
 import { FaMagnet } from 'react-icons/fa';
 import { GoBeaker } from 'react-icons/go';
-import '../styles/content.scss';
+import '../styles/home/content.scss';
 import { Container, Row, Col } from 'reactstrap';
 
 const DarkList = () => {

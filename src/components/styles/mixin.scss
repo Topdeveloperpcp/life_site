@@ -1,19 +1,43 @@
-@mixin flexcolumn() {
+@mixin flexcolumn {
     display: flex;
     flex-direction: column;
 }
 
+@mixin flexrow {
+    display: flex;
+}
+
 @mixin alignCenter {
+    @include flexrow;
     align-items: center;
     justify-content: center;
 }
 
 @mixin alignAround {
+    @include flexrow;
     align-items: center;
     justify-content: space-around;
 }
 
 @mixin alignBetween {
+    @include flexrow;
     align-items: center;
     justify-content: space-between;
 }
+
+@mixin header_container_flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+
+@mixin carouselOverlayPosition {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+

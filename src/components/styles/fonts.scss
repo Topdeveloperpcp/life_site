@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 @font-face {
     font-family: 'Gilroy-ExtraBold';
     font-style: normal;
@@ -19,7 +21,7 @@
     font-weight: 700;
     line-height: 42px;
     letter-spacing: 1px;
-    color: #444;
+    color: $Font16_18_Color;
 }
 
 .ralewaybold_16_ccc {
@@ -76,7 +78,7 @@
 }
 
 .color {
-    color: #1ABC9C;
+    color: $MenuActiveColor;
 }
 
 .raleway_18 {
@@ -85,7 +87,7 @@
     line-height: 21px;
     letter-spacing: 0.03em;
     font-weight: bold;
-    color: #444;
+    color: $Font16_18_Color;
 }
 
 .ralewaybold_18_white {

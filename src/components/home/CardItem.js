@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/content.scss';
+import '../styles/home/content.scss';
 import GrayButton from '../GrayButton';
 
 const CardItem = (props) => {

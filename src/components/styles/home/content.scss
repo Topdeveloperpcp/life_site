@@ -1,4 +1,5 @@
-@import "variables.scss";
+@import "../variables.scss";
+@import "../mixin.scss";
 
 .background {
     position: absolute;
@@ -7,7 +8,7 @@
 }
 
 .darklist_container {
-    background-color: #282828;
+    background-color: $Dark_Color;
 }
 
 .dark_item_container {
@@ -16,7 +17,7 @@
 
 .blue_icon {
     width: 50px;
-    color:  #1ABC9C;
+    color:  $MenuActiveColor;
     font-size: 50px;
     line-height: 50px;
 }
@@ -41,12 +42,21 @@
     box-shadow: $CardItemHoverShadow;
 }
 
-.overlay_carousel:before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
+
+.overlay_carousel {    
     background-color: $CarouselOverlayColor;
     z-index: 1000;
+    @include carouselOverlayPosition;
+    @include flexcolumn;
+    @include alignCenter;
 }
+
+.overlay_carousel:before {
+    content: "";    
+    background-color: $CarouselOverlayColor;
+    z-index: 1000;
+    @include carouselOverlayPosition;
+}
+
+
 

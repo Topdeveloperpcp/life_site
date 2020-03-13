@@ -1,3 +1,5 @@
+@import "../mixin.scss";
+
 .divider:after {
     content: '';
     display: block;
@@ -19,14 +21,12 @@
     border-top: 2px solid #444;
 }
 
-.button_ipad {
-    display: flex;
+.button_ipad {    
     width: 163px;
     height: 46px;
     border: 2px solid #444;
     background-color: transparent;
     border-radius: 3px;
-    align-items: center;
-    justify-content: center;
+    @include alignCenter;
 }
 

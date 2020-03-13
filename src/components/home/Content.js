@@ -6,7 +6,7 @@ import s4 from '../../assets/images/home/s4.png';
 import s5 from '../../assets/images/home/s5.png';
 import {BackgroundDiv, BackgroundFreeDiv} from '../styles/home/background';
 import ipad from '../../assets/images/home/ipad-section.png';
-import '../styles/content.scss';
+import '../styles/home/content.scss';
 import IpadContent from './IpadContent';
 import DarkList from './DarkList';
 import TypicallyResponsive from './TypicallyResponsive';

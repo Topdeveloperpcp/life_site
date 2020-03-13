@@ -1,13 +1,3 @@
 @import "variables.scss";
+@import "mixin.scss";
 
-.overlay_carousel {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-color: $CarouselOverlayColor;
-    z-index: 1000;
-}

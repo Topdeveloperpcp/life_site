@@ -1,8 +1,9 @@
+@import "../variables.scss";
+@import "../mixin.scss";
 
 .banner_container {
     height: 100vh;
     width: 100%;
-    background-color: aquamarine;
 }
 
 .parallax_banner {
@@ -21,27 +22,24 @@
 .bannerBtn {
     height: 100px;
     width: 412px;
-    border: 2px solid #EEE;
+    border: 2px solid $Light_Color;
     margin-top: 50px;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include alignCenter;
 }
 
 .bannerBtn:hover {    
-    background-color: #EEE;
+    background-color: $Light_Color;
     cursor: pointer;
 }
 
 .bannerBtn:hover div {
-    color: #333;
+    color: $BtnTxtHover_Color;
 }
 
 .bannerBtn:hover .MuiSvgIcon-root {
-    color: #333;
+    color: $BtnTxtHover_Color;
 }
-
 
 .apple {
     height: 50px;
