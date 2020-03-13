@@ -1,0 +1,74 @@
+.header_container {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+    animation-name: animationDown;
+    animation-duration: .5s;
+}
+.header_container_scroll {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+    animation-name: animationUp;
+    animation-duration: .5s;
+    -webkit-box-shadow: 0px 1px 15px -6px rgba(161,161,161,1);
+    -moz-box-shadow: 0px 1px 15px -6px rgba(161,161,161,1);
+    box-shadow: 0px 1px 15px -6px rgba(161,161,161,1);
+}
+
+@keyframes animationUp {
+    0%   { height: 100px;}    
+    100% { height: 60px;}
+}
+
+@keyframes animationDown {
+    0%   { height: 60px;}    
+    100% { height: 100px;}
+}
+ 
+.logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    border-right: 1px solid #E0E0E0;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav_container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.right_container {
+    display: flex;
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 1px solid #E0E0E0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+

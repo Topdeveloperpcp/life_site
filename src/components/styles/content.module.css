@@ -1,0 +1,61 @@
+.background {
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+}
+
+.darklist_container {
+    background-color: #282828;
+}
+
+.dark_item_container {
+    display: flex;
+}
+
+.blue_icon {
+    width: 50px;
+    color:  #1ABC9C;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.card_img {
+    height: 100%;
+}
+
+.card_item {
+    width: 100%;
+    height: fit-content;
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card_item:hover {
+    -webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
+}
+
+.overlay_carousel:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+.overlay_carousel {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+}
