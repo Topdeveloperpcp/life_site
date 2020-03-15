@@ -1,5 +1,7 @@
 @import "../variables.scss";
 @import "../mixin.scss";
+@import "../styles.scss";
+
 
 .background {
     position: absolute;
@@ -45,17 +47,14 @@
 
 .overlay_carousel {    
     background-color: $CarouselOverlayColor;
-    z-index: 1000;
+    z-index: 1;
     @include carouselOverlayPosition;
     @include flexcolumn;
     @include alignCenter;
 }
 
-.overlay_carousel:before {
-    content: "";    
-    background-color: $CarouselOverlayColor;
-    z-index: 1000;
-    @include carouselOverlayPosition;
+.round-image {
+    @include roundImage($roundImageStyle1...)
 }
 
 

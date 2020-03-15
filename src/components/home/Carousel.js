@@ -3,8 +3,9 @@ import { Carousel } from 'react-responsive-carousel';
 import img1 from '../../assets/images/home/5.jpg';
 import img2 from '../../assets/images/home/6.jpg';
 import img3 from '../../assets/images/home/7.jpg';
+import user from '../../assets/images/home/author.jpg';
+import RoundImage from '../RoundImage';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import '../styles/styles.scss';
 import '../styles/fonts.scss';
 import '../styles/home/ipadcontent.scss';
 
@@ -17,6 +18,15 @@ const CarouselContainer = () => {
                     WHAT CLIENTS SAY?
                 </p>
                 <div className="center_divider"/>
+                <div className="py-4">
+                    <RoundImage img={user}/>
+                </div>
+                <div className="creteround_22">
+                    <p className="text-center">
+                        "Natus voluptatum enim quod necessitatibus quis expedita harum provident eos<br/>
+                        obcaecati id culpa corpories molestias."
+                    </p>
+                </div>
             </div>
             <Carousel autoPlay interval={2000} infiniteLoop showThumbs={false}>
                 <div>

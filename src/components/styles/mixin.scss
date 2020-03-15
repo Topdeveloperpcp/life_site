@@ -40,4 +40,10 @@
     width: 100%;
 }
 
+@mixin roundImage ($height:50px, $width:50px, $radius:50px) {
+    height: $height;
+    width: $width;
+    border-radius: $radius;
+}
+
 

@@ -4,7 +4,7 @@
     font-family: 'Gilroy-ExtraBold';
     font-style: normal;
     font-weight: 400;
-    src: url('../../assets/fonts/Gilroy-ExtraBold.otf'); /* IE9 Compat Modes */   
+    src: url('../../assets/fonts/Gilroy-ExtraBold.otf');
 }
 
 .ralewaybold_13 {
@@ -102,6 +102,18 @@
     display: block;
     margin-top: 10px;
     font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+    text-transform: none;
+    color:white;
+}
+
+.creteround_22 {
+    display: block;
+    margin-top: 10px;
+    font-size: 22px;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Crete Round', serif;

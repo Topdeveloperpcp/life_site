@@ -12,6 +12,7 @@ import DarkList from './DarkList';
 import TypicallyResponsive from './TypicallyResponsive';
 import Cards from './Cards';
 import Carousel from './Carousel';
+import Footer from '../Footer';
 
 const Content = () => {
     return(
@@ -52,7 +53,8 @@ const Content = () => {
             <Container className="themed-container py-5">
                 <Cards />
             </Container>
-            <Carousel />            
+            <Carousel />
+            <Footer />            
         </>
     )
 }
