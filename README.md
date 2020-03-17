@@ -1,5 +1,7 @@
 ReactJS / Redux / SCSS / Styled-component / React-hooks
 
+live site is https://wizardly-bardeen-fa23e9.netlify.com/
+
 Redux, React-hooks sample code: src/components/home/BannerContent.js
 
 function BannerContent() {    
