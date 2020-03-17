@@ -1,3 +1,9 @@
+/**
+ * ===== 16/3/2020 ======
+ * ===CREADED BY CHRIS===
+ * ===== ALL FONTS ======
+ */
+
 @import "./variables.scss";
 
 @font-face {
@@ -13,6 +19,15 @@
     font-weight: bold;
     line-height: 22px;
     letter-spacing: 1px;
+}
+
+.ralewaybold_13_444 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: $Font16_18_Color;
 }
 
 .ralewaybold_16 {
@@ -135,5 +150,16 @@
 .lato_888 {
     font-family: 'Lato', sans-serif;
     color: #888;
+    font-size: .875rem;
+}
+
+
+/**
+ * ===== Footer fonts ======
+ */
+
+ .footer_fonts {
+    font-family: 'Lato', sans-serif;
+    color: $FooterFont_Color;
     font-size: .875rem;
 }

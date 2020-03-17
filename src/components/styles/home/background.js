@@ -1,3 +1,9 @@
+/**
+ * ============= 16/3/2020 ============
+ * ==========CREADED BY CHRIS==========
+ * ===== HOME SECTION STYLED DIVS =====
+ */
+
 import styled from 'styled-components';
 
 export const BackgroundDiv = styled.div`

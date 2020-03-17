@@ -12,7 +12,6 @@ import DarkList from './DarkList';
 import TypicallyResponsive from './TypicallyResponsive';
 import Cards from './Cards';
 import Carousel from './Carousel';
-import Footer from '../Footer';
 
 const Content = () => {
     return(
@@ -54,7 +53,6 @@ const Content = () => {
                 <Cards />
             </Container>
             <Carousel />
-            <Footer />            
         </>
     )
 }

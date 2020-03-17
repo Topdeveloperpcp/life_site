@@ -27,6 +27,12 @@ const CarouselContainer = () => {
                         obcaecati id culpa corpories molestias."
                     </p>
                 </div>
+                <div className="ralewaybold_16_ccc">
+                    -COLLIS TAEED
+                </div>
+                <div className="ralewaybold_13_444">
+                    Envato Inc.
+                </div>
             </div>
             <Carousel autoPlay interval={2000} infiniteLoop showThumbs={false}>
                 <div>

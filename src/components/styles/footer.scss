@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+.footer {
+    background-color: $FooterBackground_Color;
+}
+
+.footer_link {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.footer_link:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: $FooterFontHover_Color;
+}

@@ -1,16 +1,18 @@
 import React from 'react';
-import styles from './styles/home.module.css';
+import StyledDiv from './styles/home';
 import Header from '../components/header';
 import HomeBanner from '../components/home/HomeBanner';
 import Content from '../components/home/Content';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return(
-        <div className={styles.container}>
+        <StyledDiv>
             <Header />
             <HomeBanner />
             <Content />
-        </div>
+            <Footer />
+        </StyledDiv>
     );
 }
 
