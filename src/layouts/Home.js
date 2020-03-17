@@ -5,7 +5,7 @@ import HomeBanner from '../components/home/HomeBanner';
 import Content from '../components/home/Content';
 import Footer from '../components/Footer';
 
-const Home = () => {
+function Home() {
     return(
         <StyledDiv>
             <Header />

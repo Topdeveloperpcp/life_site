@@ -13,7 +13,7 @@ import TypicallyResponsive from './TypicallyResponsive';
 import Cards from './Cards';
 import Carousel from './Carousel';
 
-const Content = () => {
+function Content() {
     return(
         <>
             <Container className="themed-container pt-5">
@@ -31,7 +31,7 @@ const Content = () => {
             </Container>
             <BackgroundDiv>
                 <img src={ipad} className="background" alt="ipad"/>
-                <Container className="themed-container pt-5">
+                <Container className="themed-container py-5">
                     <Col xs="12" md="7" className="pt-5 pb-5">
                         <IpadContent 
                             btnName="START TRIAL"

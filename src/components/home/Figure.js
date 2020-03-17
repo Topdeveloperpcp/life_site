@@ -3,7 +3,7 @@ import '../styles/home/figure.scss';
 import '../styles/fonts.scss';
 
 
-const Figure = (props) => {
+function Figure(props) {
     return(
         <div className="figure_container">
             <img src={props.img} alt="sign"/>

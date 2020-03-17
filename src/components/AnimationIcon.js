@@ -7,11 +7,8 @@ import { FaVimeo } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaYahoo } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-import styled from 'styled-components';
 import './styles/home/animationIcon.scss';
 import "./styles/animation.scss";
-
-
 
 function Animation(props) {
     return (

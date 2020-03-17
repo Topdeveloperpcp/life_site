@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/home/content.scss';
 import GrayButton from '../GrayButton';
 
-const CardItem = (props) => {
+function CardItem(props) {
     return(
         <div className="card_item">
             <div className="h-50">

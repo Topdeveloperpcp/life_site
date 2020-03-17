@@ -11,16 +11,16 @@ function Footer() {
         <div className="footer">       
             <Container className="themed-container py-5">
                 <Row>
-                    <Col md="6" xs="12">
+                    <Col md="6" xs="12" className="footer-left">
                         <div className="footer_fonts py-1">                            
-						    Copyrights © 2014 All Rights Reserved by Canvas Inc.
+						    <p>Copyrights © 2014 All Rights Reserved by Canvas Inc.</p>
                         </div>
                         <div className="d-flex footer_fonts py-1">                            
 						    <a href="#" className="footer_fonts footer_link mr-2">Terms of Use</a>
                             <a href="#" className="footer_fonts footer_link">Privacy Policy</a>/
                         </div>
                     </Col>
-                    <Col md="6" xs="12" className="d-flex flex-column align-items-end">
+                    <Col md="6" xs="12" className="footer-right">
                         <div>
                             <div>
                                 <AnimationIcon icon='FaFacebookF'/>
@@ -29,10 +29,10 @@ function Footer() {
                         <div className="footer_fonts d-flex align-items-center">
                             <IoIosMail />
                             info@canvas.com
-                            <span class="px-2">·</span>
+                            <span className="px-2">·</span>
                             <FaHeadphones />
                             +91-11-6541-6369
-                            <span class="px-2">·</span>
+                            <span className="px-2">·</span>
                             <FaSkype />
                             CanvasOnSkype
                         </div>

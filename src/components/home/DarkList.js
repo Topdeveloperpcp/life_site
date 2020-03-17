@@ -9,7 +9,7 @@ import { GoBeaker } from 'react-icons/go';
 import '../styles/home/content.scss';
 import { Container, Row, Col } from 'reactstrap';
 
-const DarkList = () => {
+function DarkList() {
     return(
             <div className="darklist_container">            
                 <Container className="themed-container pt-5">

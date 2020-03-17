@@ -37,3 +37,9 @@
     @include alignCenter;
 }
 
+@media (max-width: 895px) {
+    .overlay_carousel {
+        display: none;
+    }
+}
+

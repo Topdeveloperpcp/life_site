@@ -63,4 +63,46 @@
 }
 
 
+@media (max-width:1412px){
+    .background {
+        position: absolute;
+        width: 800px;
+        right: 0px;
+        bottom:0px;
+    }
+}
+
+@media (max-width:996px){
+    .background {
+        position: absolute;
+        width: 650px;
+        right: 0px;
+        bottom:0px;
+    }
+    .double_iphone {
+        width: 300px;
+    }
+}
+
+@media (max-width:770px){
+    .background {
+        position: absolute;
+        width: 500px;
+        right: 0px;
+        bottom:0px;
+    }
+    .double_iphone {
+        width: 200px;
+    }
+}
+
+@media (max-width:500px){
+    .background {
+        position: absolute;
+        width: 300px;
+        right: 0px;
+        bottom:0px;
+    }
+}
+
 

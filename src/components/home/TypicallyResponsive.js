@@ -3,12 +3,12 @@ import { Row, Col } from 'reactstrap';
 import phone from '../../assets/images/home/iphone-solid.png';
 import IpadContent from './IpadContent';
 
-const TypicallyResponsive = () => {
+function TypicallyResponsive() {
     return(
         <>
             <Row className="py-5">
                 <Col xs="12" md="6" className="py-3 d-flex align-items-center">
-                    <img src={phone} alt="phone"/>
+                    <img src={phone} alt="phone" className="double_iphone"/>
                 </Col>
                 <Col xs="12" md="6" className="d-flex align-items-center">
                     <IpadContent 

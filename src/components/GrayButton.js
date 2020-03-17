@@ -19,7 +19,7 @@ const BtnDiv = styled.div`
     }
 `
 
-const GrayButton = (props) => {
+function GrayButton(props) {
     return(
         <BtnDiv width={props.width} height={props.height}>
             <div className="lato_white">

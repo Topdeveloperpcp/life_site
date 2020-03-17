@@ -10,9 +10,9 @@ import '../styles/fonts.scss';
 import '../styles/home/ipadcontent.scss';
 
 
-const CarouselContainer = () => {
+function CarouselContainer() {
     return(
-        <div class="position-relative">
+        <div className="position-relative">
             <div className="overlay_carousel">
                 <p className="ralewaybold_30_white">
                     WHAT CLIENTS SAY?

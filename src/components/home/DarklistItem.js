@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/fonts.scss';
 
-const DarklistItem = (props) => {
+function DarklistItem(props) {
     return(
         
         <div className="pl-3">

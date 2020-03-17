@@ -7,7 +7,7 @@ import cardImg1 from '../../assets/images/home/10.jpg';
 import cardImg2 from '../../assets/images/home/11.jpg';
 import cardImg3 from '../../assets/images/home/12.jpg';
 
-const Cards = () => {
+function Cards() {
     return(
         <>
             <Row className="d-flex justify-content-center">

@@ -39,10 +39,15 @@
 }
 
 .nav_container {
+    height: 100%;
     width: 90%;
     display: flex;
     @include alignCenter;
     
+}
+
+.left_container {
+    display: none;
 }
 
 .right_container {
@@ -56,7 +61,42 @@
 }
 
 .menu {
-    padding: 20px;
+    height: 100%;
+    padding: 0 20px;
+    @include alignCenter;
+}
+/**
+ * ===== HEADER RESPONSIVE ======
+ */
+@media (max-width:1000px){
+    .nav_container {
+        display: none;
+    }
+
+    .logo_container {
+        width: 90%;
+        border: none;
+    }
+
+    .left_container {
+        display: flex;
+        height: 100%;
+        width: 100px;   
+        border-left: 1px solid $HeaderBorder_Color;
+        padding-left: 0px;
+        padding-right: 0px;
+        @include alignAround;
+    }
+    .logo {
+        height: 30px;
+    }
+
+    .right_container {
+        width: 100px; 
+        padding-left: 0px;
+        padding-right: 0px;
+        border: none;
+    }
 }
 
 
